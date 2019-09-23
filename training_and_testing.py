@@ -156,7 +156,7 @@ def main():
 
             cv2.destroyAllWindows()             # remove windows from memory
     print(strFinalString_list)
-    strFinalString_list.to_excel('strFinalString_list.xlsx')
+    strFinalString_list.to_excel('testing_final_output.xlsx')
     return
 
 
