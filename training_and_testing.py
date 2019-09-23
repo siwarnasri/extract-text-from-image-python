@@ -39,7 +39,7 @@ class ContourWithData():
 def main():
 
 
-    strFinalString_list = pd.DataFrame([])
+    strFinalString_list = pd.DataFrame(columns = ["test_output", "image_name"])
     BASE_DIR = os.path.dirname(os.path.abspath("__file__"))
     data_path = os.path.join (BASE_DIR, 'data_test/')
     
